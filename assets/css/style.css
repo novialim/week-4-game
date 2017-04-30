@@ -1,0 +1,83 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+	padding: 20px;
+    background-image: url("../images/bg.png");
+}
+
+#header {
+	font-size: 20px;
+	color: #FFF;
+	width: 120px;
+	height: 30px; 
+	background: #c97125;
+	display: table-cell; 
+	vertical-align: middle;
+	padding:10px;
+	font-weight: bold;
+}
+
+#instructions {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #fbe7cc;
+	width:50%;
+	padding:10px;
+	padding-bottom: 50px;
+	color: #78913a;
+	font-weight: bold;
+}
+
+#scoreArea {
+	width:100%;
+	display: inline-block;
+}
+
+#targetScore {
+	background-color: #5cc87c;
+	width: 200px;
+	height: 100px;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bolder;
+	position: relative;
+	float: left;
+}
+
+#scoreBoard {
+	margin-left: 4px;
+	background-color: #4afdff;
+	width: 90px;
+	height: 100px;
+	position: relative;
+	padding:5px;
+	vertical-align: middle;
+	float: left;
+}
+
+#totalScoreHeader {
+	background-color: #2ca194;
+	color: #FFF;
+	padding:5px;
+	width:150px;
+}
+
+#totalScore {
+	margin-top:5px;
+	width:150px;
+	height:150px;
+	padding:5px;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #2ca194;
+}
+
+#crystalsImg img{
+	width:100px;
+	margin-right:1px;
+}
